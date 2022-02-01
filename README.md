@@ -22,7 +22,7 @@ Ce rapport contient :
 </ul>
 
 
-## Dependencies 
+## Dépendances 
 ##### `requirements.txt`
 
 TODO
