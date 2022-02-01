@@ -3,7 +3,7 @@
 #### Etudiants :
 Corcoral Thomas, SABATINO Francesco, Toullalan Antoine, ZARROUK Yaël 
 
-### DEMO
+## DEMO
 
 TODO
 
@@ -12,7 +12,7 @@ TODO
   <li>TODO</li>
 </ul>
 
-### Rapport
+## Rapport
 
 #### <a target="_blank" href="#" title="Rapport">Voir</a>
 
@@ -22,7 +22,7 @@ Ce rapport contient :
 </ul>
 
 
-### Dependencies 
+## Dependencies 
 ##### `requirements.txt`
 
 TODO
