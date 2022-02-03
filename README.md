@@ -1,7 +1,7 @@
 ## Projet M1 ANDROIDE - ROBOTIQUE EN ESSAIM
 
 #### Etudiants :
-Corcoral Thomas, SABATINO Francesco, Toullalan Antoine, ZARROUK Yaël 
+CORCORAL Thomas, SABATINO Francesco, TOULLALAN Antoine, ZARROUK Yaël 
 
 ## DEMO
 
