@@ -7,7 +7,7 @@ Webots R2022a - <a target="_blank" href="https://cyberbotics.com/" title="Webots
 
 Ci-dessous, un gif illustrant une simulation avec un code très simple
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://raw.githubusercontent.com/AntoineToullalan/Projet_ANDROIDE_Robots_en_essaim/main/simulation/mona_simu_demo_simple.gif)
 
 ## Installation
 <ul>
