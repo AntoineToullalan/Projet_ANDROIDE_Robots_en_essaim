@@ -45,8 +45,8 @@ void loop(){
   
   //--------------Motors------------------------
   // Set motors movement based on the state value.
-  if(not detect_source){
-    switch(state){
+  if(detect_source){
+    switch(dir){
     case 0 : Motors_spin_right(turn_speed); break;
     case 1 : Motors_spin_right(int(turn_speed/2)); break;
     case 2 : Motors_forward(forward_speed); break;
@@ -55,12 +55,12 @@ void loop(){
     }
   }
   else{
-    switch(dir){
+    switch(state){
+    case -1 : Motors_forward(0); break;
     case 0 : Motors_forward(forward_speed); break;
-    case 1 : Motors_spin_right(turn_speed); break;
-    case 2 : Motors_forward(forward_speed); break;
-    case 3 : Motors_spin_left(turn_speed); break;
-    case 4 : Motors_spin_left(turn_speed); break;
+    case 1 : Motors_spin_left(turn_speed); break;
+    case 2 : Motors_spin_left(turn_speed); break;
+    case 3 : Motors_spin_right(turn_speed); break;
   }
   
   
