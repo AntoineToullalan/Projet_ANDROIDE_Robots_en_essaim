@@ -11,17 +11,20 @@
 
 //Variables
 bool IR_object[5] = {false, false, false, false, false};
-int IR_values[5] = {255, 255, 255, 255, 255};
+int IR_values[5] = {250, 250, 250, 250, 250};
 
-int turn_speed = 100;
-int forward_speed = 150;
+int default_speed = 100;
+
+int turn_speed = default_speed;
+int forward_speed = default_speed;
+
 
 int ceil_stop = 210;
 
 //Threshold value used to determine a detection on the IR sensors.
 //Reduce the value for a earlier detection, increase it if there
 //false detections.
-int threshold = 35;
+int threshold = 30;
 //State Machine Variable
 // 0 -move forward , 1 - forward obstacle , 2 - right proximity , 3 - left proximity
 int state, old_state;
@@ -46,11 +49,11 @@ void loop(){
   //--------------Motors------------------------
   // Set motors movement based on the state value.
   switch(state){
-    case -1 : Motors_forward(0); break;
-    case 0 : Motors_forward(forward_speed); break;
-    case 1 : Motors_forward(forward_speed); break;
-    case 2 : Motors_spin_right(turn_speed); break;
-    case 3 : Motors_spin_left(turn_speed); break;
+    case -1 : Motors_forward(0); forward_speed = default_speed; break;
+    case 0 : Motors_forward(forward_speed); turn_speed = default_speed; break;
+    case 1 : Motors_forward(forward_speed); turn_speed = default_speed; break;
+    case 2 : Motors_spin_right(turn_speed); forward_speed = default_speed; break;
+    case 3 : Motors_spin_left(turn_speed); forward_speed = default_speed; break;
   }
   
   //--------------IR sensors------------------------
@@ -60,10 +63,14 @@ void loop(){
   for(int i = 0; i<5; i++){
     IR_object[i] = Detect_object(i+1,threshold);
     IR_values[i] = Read_IR(i+1);
-    //Serial.println(IR_object[i]);
+    //Serial.println(IR_values[i]);
   }
 
   state = update_dir();
+  
+  forward_speed += 2;
+  turn_speed += 2;
+  
   delay(100);
 }
 
@@ -80,8 +87,8 @@ int update_dir(){
     }
   }
   if(IR_object[2]){
-    Set_LED(1, 0, 0, 10); // Blue
-    Set_LED(2, 0, 0, 10);
+    Set_LED(1, 0, 0, 250); // Blue
+    Set_LED(2, 0, 0, 250);
     return 1;
   }
   else if(IR_object[0] or IR_object[1]){ //Check for left proximity
