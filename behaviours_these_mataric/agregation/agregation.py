@@ -13,7 +13,7 @@ TIME_STEP = 64
 
 MAX_SPEED = 130
 
-d_aggregate=80
+d_aggregate=100
 
 # create the Robot instance.
 robot = Robot()
@@ -36,14 +36,14 @@ ds = []
 dsNames = [
     'fs0', 'fs1', 'fs2', 'fs3'
 ]
-def NoAgentsInDistAggregat(psValues,d_aggregate,to_answer):
+def NoAgentsInDistAggregat(psValues,d_aggregate):
     res=True
     for ps in psValues:
-        if(ps>=d_aggregate and to_answer):
+        if(ps>=d_aggregate):
             res=False
     return res
 
-def DirectionLocalCentroid(psValues,to_answer):
+def DirectionLocalCentroid(psValues):
     leftM=MAX_SPEED/2
     rightM=MAX_SPEED/2
     
@@ -52,27 +52,21 @@ def DirectionLocalCentroid(psValues,to_answer):
     right_obstacle = psValues[1] > 80.0 or psValues[2] > 80.0 or psValues[3] > 80.0
     left_obstacle = psValues[5] > 80.0 or psValues[6] > 80.0 or psValues[7] > 80.0
     
-    if(to_answer):
-        if front_obstacle:
-            leftMotor.setVelocity(MAX_SPEED/2)
-            rightMotor.setVelocity(-MAX_SPEED/2)
-        elif back_obstacle:
-            leftMotor.setVelocity(-MAX_SPEED/2)
-            rightMotor.setVelocity(MAX_SPEED/2)
-        elif right_obstacle:
-            leftMotor.setVelocity(0)
-            rightMotor.setVelocity(MAX_SPEED/2)
-        elif left_obstacle:
-            leftMotor.setVelocity(MAX_SPEED/2)
-            rightMotor.setVelocity(0)
-        else:
-            leftMotor.setVelocity(MAX_SPEED/2)
-            rightMotor.setVelocity(MAX_SPEED/2)
-        
-        
-        
-            
-            
+    if front_obstacle:
+        leftM=MAX_SPEED/2
+        rightM-MAX_SPEED/2
+    elif back_obstacle:
+        leftM=-MAX_SPEED/2
+        rightM=MAX_SPEED/2
+    elif right_obstacle:
+        leftM=0
+        rightM=MAX_SPEED/2
+    elif left_obstacle:
+        leftM=MAX_SPEED/2
+        rightM=0
+    else:
+        leftM=MAX_SPEED/2
+        rightM=MAX_SPEED/2        
     return (leftM,rightM)
         
 for i in range(len(psNames)):
@@ -87,8 +81,7 @@ leftMotor = robot.getDevice('left wheel motor')
 rightMotor = robot.getDevice('right wheel motor')
 leftMotor.setPosition(float('inf'))
 rightMotor.setPosition(float('inf'))
-leftMotor.setVelocity(100)
-rightMotor.setVelocity(100)
+
 send_last = 0
 stopped = False
 to_answer = False
@@ -123,12 +116,13 @@ while robot.step(TIME_STEP) != -1:
     # ps4 = back (not playstation 4)
     
     
-    
-    if(NoAgentsInDistAggregat(psValues,d_aggregate,to_answer)):
-        leftM,rightM = DirectionLocalCentroid(psValues,to_answer)
+    if(NoAgentsInDistAggregat(psValues,d_aggregate)):
+        leftM,rightM = DirectionLocalCentroid(psValues)
         leftMotor.setVelocity(leftM)
         rightMotor.setVelocity(rightM)
     else:
         leftMotor.setVelocity(0)
         rightMotor.setVelocity(0)
+ 
+    
    
