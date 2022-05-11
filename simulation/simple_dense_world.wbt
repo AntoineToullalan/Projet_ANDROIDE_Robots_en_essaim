@@ -1,0 +1,217 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.4253326119128241 0.4230703541698604 0.8000647752938533 1.757954658213915
+  position -0.001981548121518517 -1.142633328926912 1.644800429358158
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 4.69286e-08 0 -0.07
+  rotation 0 1 0 0
+  floorTileSize 0.2 0.2
+  wallThickness 0.05
+}
+CardboardBox {
+  translation -0.8 0.81 0.02
+  rotation 0 1 0 0
+  size 0.2 0.2 0.2
+}
+Elisa3 {
+  hidden translation_5 0 0.02 0.0045
+  hidden rotation_5 0 1 0 4.061186232236412
+  hidden translation_6 0 -0.02 0.0045
+  hidden rotation_6 0 -1 0 2.310652074136536
+  translation -0.4547730473995727 -0.00371773113533694 -0.07016694975069616
+  rotation -0.018488873776978512 -0.1363762231253644 0.9904845719709721 0.2148585048034513
+  name "Elisa-3(1)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden translation_5 0 0.02 0.0045
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462027
+  hidden translation_6 0 -0.02 0.0045
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation -0.103318 -0.189122 -0.0751637
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(2)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462025
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation -0.268936 -0.0178797 -0.064104
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(3)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462025
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation -0.302867 -0.330331 -0.07
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(4)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462025
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation -0.256558 0.21595 -0.0530475
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(5)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462025
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation -0.00646166 0.0288861 -0.061893
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(6)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462025
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation 0.192128 -0.173877 -0.07
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(7)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462025
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation 0.0425372 -0.374139 -0.07
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(8)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 0.9999999999999999 0 1.9014227208462022
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation 0.26227 0.0678576 -0.0600505
+  rotation -0.03987691745230699 -0.008382543668656827 -0.9991694372908656 -0.9386653071795861
+  name "Elisa-3(9)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
+Elisa3 {
+  hidden rotation_5 0 1 0 1.9014227208462018
+  hidden rotation_6 0 -1 0 3.1768705791596874
+  translation 0.130872 0.356238 -0.0622615
+  rotation -0.0184293779455073 0.008841218286401616 -0.9997910736187606 -2.247155350804909
+  name "Elisa-3(10)"
+  controller "<extern>"
+  extensionSlot [
+    Emitter {
+      name "myEmitter"
+      range 0.1
+    }
+    Receiver {
+      name "myReceiver"
+    }
+    GPS {
+    }
+  ]
+}
