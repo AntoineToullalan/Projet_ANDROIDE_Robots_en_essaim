@@ -1,0 +1,124 @@
+elisa3.o: elisa3.ino \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Arduino.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/binary.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/WCharacter.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/WString.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/HardwareSerial.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Stream.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Print.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Printable.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/new.h \
+ /home/stefano/Desktop/arduino-1.0.5/hardware/arduino/variants/mega/pins_arduino.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/adc.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/behaviors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ir_remote_control.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/leds.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/leds.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/mirf.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/sensors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/utility.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ports_io.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/adc.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/behaviors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/speed_control.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/mirf.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/usart.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ir_remote_control.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/nRF24L01.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ports_io.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/sensors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/speed_control.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/usart.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/utility.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Arduino.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/binary.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/WCharacter.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/WString.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/HardwareSerial.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Stream.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Print.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/Printable.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/cores/arduino/new.h:
+
+/home/stefano/Desktop/arduino-1.0.5/hardware/arduino/variants/mega/pins_arduino.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/adc.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/behaviors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ir_remote_control.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/leds.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/leds.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/mirf.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/sensors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/utility.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ports_io.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/adc.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/behaviors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/speed_control.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/mirf.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/usart.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ir_remote_control.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/nRF24L01.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/ports_io.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/sensors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/speed_control.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/usart.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/utility.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h:

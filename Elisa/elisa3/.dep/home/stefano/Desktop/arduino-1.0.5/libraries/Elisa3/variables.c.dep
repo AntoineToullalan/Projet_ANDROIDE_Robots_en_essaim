@@ -1,0 +1,5 @@
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.o: \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.c \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h:

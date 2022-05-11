@@ -1,0 +1,14 @@
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.o: \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.c \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/usart.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/twimaster.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/usart.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h:

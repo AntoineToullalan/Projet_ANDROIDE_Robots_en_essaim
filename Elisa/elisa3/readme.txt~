@@ -1,0 +1,13 @@
+1) installare avr toolchain aggiornata nel sistema:
+   sudo apt-get install avrdude binutils-avr gcc-avr avr-libc gdb-avr
+
+2) sostituire toolchain di Arduino IDE con quella appena scaricata nel sistema:
+   - copiare /usr/avr-* in  arduino/hardware/tools/avr/bin
+   - copiare /usr/lib/avr in arduino/hardware/tools/avr/lib
+   - copiare /usr/lib/gcc/avr in arduino/hardware/tools/avr/lib/gcc
+
+3) nel file makefile.mk ho aggiunto i file sorgenti della libreria direttamente a mano (SOURCES += ...) altrimenti non compilava
+
+4) make
+
+5) make upload

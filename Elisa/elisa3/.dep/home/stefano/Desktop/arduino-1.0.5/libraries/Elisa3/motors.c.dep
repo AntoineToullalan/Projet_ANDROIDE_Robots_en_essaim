@@ -1,0 +1,17 @@
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.o: \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.c \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/behaviors.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/speed_control.h
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/motors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/behaviors.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/speed_control.h:

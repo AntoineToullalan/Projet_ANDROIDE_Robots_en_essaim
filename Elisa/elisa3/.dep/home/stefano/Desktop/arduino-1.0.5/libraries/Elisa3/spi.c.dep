@@ -1,0 +1,11 @@
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.o: \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.c \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h \
+ /home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/spi.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/variables.h:
+
+/home/stefano/Desktop/arduino-1.0.5/libraries/Elisa3/constants.h:
