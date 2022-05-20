@@ -1,5 +1,10 @@
 ## Projet M1 ANDROIDE - ROBOTIQUE EN ESSAIM
 
+**Intitulé du projet : Implémentation sur robots réels de comportements collectifs en essaim**
+
+#### Encadrant :
+BREDECHE Nicolas
+
 #### Etudiants :
 CORCORAL Thomas, SABATINO Francesco, TOULLALAN Antoine, ZARROUK Yaël 
 
