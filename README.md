@@ -15,9 +15,9 @@ https://github.com/ThomasCorcoral/Robot_Mona_ESP32
 <ul>
   <li>./Elisa/elisa3 -> Code Arduino utilisé pour le robot Elisa 3</li>
   <li>./Elisa/librairies/Elisa3 -> librairie étendue du robot Elisa 3 pour arduino</li>
-  <li>./Elisa/algorithms/elisa_simul_python -> Comportements sur Elisa 3 en simulation sur WeBots en Python</li>
-  <li>./Elisa/algorithms/mona_arduino -> Comportements sur Mona sur robot réel en Arduino</li>
-  <li>./Elisa/simulation -> Fichiers créés lors de la prise en main de Webots avec le robot Mona (Mona_Robot.wbo)</li>
+  <li>./algorithms/elisa_simul_python -> Comportements sur Elisa 3 en simulation sur WeBots en Python</li>
+  <li>./algorithms/mona_arduino -> Comportements sur Mona sur robot réel en Arduino</li>
+  <li>./simulation -> Fichiers créés lors de la prise en main de Webots avec le robot Mona (Mona_Robot.wbo)</li>
 </ul>
 
 ## Rapport
