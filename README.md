@@ -2,11 +2,9 @@
 
 **Intitulé du projet : Implémentation sur robots réels de comportements collectifs en essaim**
 
-#### Encadrant :
-BREDECHE Nicolas
+#### Encadrant : BREDECHE Nicolas
 
-#### Etudiants :
-CORCORAL Thomas, SABATINO Francesco, TOULLALAN Antoine, ZARROUK Yaël 
+#### Etudiants : CORCORAL Thomas, SABATINO Francesco, TOULLALAN Antoine, ZARROUK Yaël 
 
 ## Mona robot ESP32 package
 
